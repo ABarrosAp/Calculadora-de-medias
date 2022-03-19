@@ -1,0 +1,95 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-color: #002147;
+  background-image: url("https://www.pngall.com/wp-content/uploads/2016/07/Space-Free-PNG-Image.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-grow: 1;
+}
+
+.container {
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffd700;
+  margin: 0 0 5px;
+  text-shadow: 1px 2px 5px white;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 15px;
+}
+
+label #calc {
+  margin-top: 15px;
+}
+
+#media {
+  color: white;
+  background: linear-gradient(35.68deg, #033058 37.26%, #032040 86.03%);
+  border-color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+
+button {
+  padding: 5px;
+  color: white;
+  background: linear-gradient(35.68deg, #033058 37.26%, #032040 86.03%);
+  border-color: gold;
+  border-radius: 20px;
+}
+
+.principal {
+  display: flex;
+  justify-content: center;
+}
+
+.insercoes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 350px;
+  paddin: 1rem;
+  background: linear-gradient(35.68deg, #033058 37.26%, #032040 86.03%);
+  box-shadow: 0px 0px 5px white;
+  border-radius: 40px;
+  color: white;
+}
+
+#medCalculada {
+  align-self: center;
+  text-shadow: 1px 1px 1px gold;
+}
+
+.foot {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.page-logo {
+  align-self: flex-end;
+  height: 60px;
+  width: auto;
+}
+
+.einstein {
+  height: 150px;
+  width: auto;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
